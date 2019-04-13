@@ -1,0 +1,115 @@
+{*******************************************************************************
+Title: T2Ti ERP 2.0
+Description: Change-log-DER_Retaguarda
+
+The MIT License
+
+Copyright: Copyright (C) 2010 T2Ti.COM
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+       The author may be contacted at:
+           t2ti.com@gmail.com</p>
+
+@author Albert Eije
+@version 2.0
+*******************************************************************************}
+
+{******************************************************************************
+|* T2Ti ERP 2.0 - DER Frente de Caixa
+|*
+|* PROPÓSITO: Registro de Alterações
+******************************************************************************}
+
+Símbolo : Significado
+
+[+]     : Novo recurso (tabela/campo/relacionamento)
+[*]     : Recurso modificado/melhorado (tabela/campo/relacionamento)
+[-]     : Remoção de recurso (tabela/campo/relacionamento)
+
+Versão 2.0.0.2 - 25/09/2016
+-----------------------------
+[+] Tabela ECF_VENDA_DETALHE. Inseridos os campos: VALOR_IMPOSTO_FEDERAL, VALOR_IMPOSTO_ESTADUAL, VALOR_IMPOSTO_MUNICIPAL.
+[+] Tabela IBPT incluída.
+
+
+Versão 2.0.0.1 - 22/07/2014
+-----------------------------
+[+] Incluída a tabela ECF_CONFIGURACAO_BALANCA.
+[-] Tabela ECF_CONFIGURACAO. Removido o campo CONFIGURACAO_BALANCA.
+[+] Incluída a tabela ECF_RELATORIO_GERENCIAL.
+[-] Tabela ECF_CONFIGURACAO. Removido o campo INDICE_GERENCIAL.
+[+] Incluída a tabela ECF_CONFIGURACAO_LEITOR_SER.
+[-] Tabela ECF_CONFIGURACAO. Removido o campo PARAMETROS_DIVERSOS.
+[-] Tabela ECF_CONFIGURACAO. Removido o campo SINCRONIZADO.
+[+] Tabela ECF_CONFIGURACAO. Incluídos os campos:
+		PEDE_CPF_CUPOM
+		TIPO_INTEGRACAO
+		TIMER_INTEGRACAO
+		GAVETA_UTILIZACAO
+		GAVETA_SINAL_INVERTIDO
+		QUANTIDADE_MAXIMA_PARCELA
+		IMPRIME_PARCELA
+		USA_TECLADO_REDUZIDO
+		PERMITE_LANCAR_NF_MANUAL
+[*] Tabela ECF_CONFIGURACAO. Campo QTDE_MAXIMA_CARTOES alterado para QUANTIDADE_MAXIMA_CARTOES.
+[-] Tabela ECF_IMPRESSORA. Removido o campo ECF_IMPRESSORA.
+[*] Tabela ECF_TOTAL_TIPO_PGTO. Nome alterado para ECF_TOTAL_TIPO_PAGAMENTO. 
+[-] Tabela ECF_TOTAL_TIPO_PAGAMENTO. Removidos os campos: SINCRONIZADO, HASH_TRIPA e HASH_INCREMENTO.
+[-] Tabela ECF_SUPRIMENTO. Removido o campo: SINCRONIZADO.
+[-] Tabela ECF_SANGRIA. Removido o campo: SINCRONIZADO.
+[-] Tabela ECF_FECHAMENTO. Removido o campo: SINCRONIZADO.
+[-] Tabela ECF_MOVIMENTO. Removido o campo: SINCRONIZADO.
+[-] Tabela ECF_RECEBIMENTO_NAO_FISCAL. Removido o campo: SINCRONIZADO.
+[-] Tabela ECF_DOCUMENTOS_EMITIDOS. Removido o campo: SINCRONIZADO.
+[-] Tabela ECF_VENDA_CABECALHO. Removidos os campos: SINCRONIZADO, HASH_TRIPA e HASH_INCREMENTO.
+[-] Tabela ECF_VENDA_DETALHE. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[-] Tabela PRODUTO. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[-] Tabela NOTA_FISCAL_CABECALHO. Removido o campo: SINCRONIZADO.
+[-] Tabela NOTA_FISCAL_DETALHE. Removido o campo: SINCRONIZADO.
+[-] Tabela R01. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[-] Tabela R02. Removidos os campos: SINCRONIZADO, HASH_TRIPA e HASH_INCREMENTO.
+[-] Tabela R03. Removidos os campos: SINCRONIZADO, HASH_TRIPA e HASH_INCREMENTO.
+[-] Tabela R06. Removidos os campos: SINCRONIZADO, HASH_TRIPA e HASH_INCREMENTO.
+[-] Tabela R07. Removido o campo: SINCRONIZADO.
+[*] Tabela UNIDADE_PRODUTO. Campo NOME alterado para SIGLA. 
+[+] Tabela R01. Incluído o campo: LOGSS.
+[+] Tabela R02. Incluído o campo: LOGSS.
+[+] Tabela R03. Incluído o campo: LOGSS.
+[+] Tabela ECF_VENDA_CABECALHO. Incluído o campo: LOGSS.
+[+] Tabela ECF_VENDA_DETALHE. Incluído o campo: LOGSS.
+[+] Tabela R06. Incluído o campo: LOGSS.
+[+] Tabela R07. Incluído o campo: LOGSS.
+[+] Tabela ECF_TOTAL_TIPO_PAGAMENTO. Incluído o campo: LOGSS.
+[+] Tabela ECF_TOTAL_TIPO_PAGAMENTO. Incluído o campo: DATA_VENDA. Utilizada no momento de gerar o Registro A2.
+[+] Tabela PRODUTO. Incluído o campo: LOGSS.
+[+] Incluída a tabela LOGSS.
+[*]	Tabela LOG_IMPORTACAO
+	- Adicionado o campo HORA_IMPORTACAO
+	- Alterado o campo LOG_ERRO de varchar para TEXT. Nome Alterado para ERRO.
+	- Adicionado o campo REGISTRO
+[+] Incluída a tabela ECF_E3.
+[*] Tabela PRODUTO. Campo QTD_ESTOQUE alterado para QUANTIDADE_ESTOQUE.
+[*] Tabela PRODUTO. Campo ESTOQUE_MIN alterado para ESTOQUE_MINIMO.
+[*] Tabela PRODUTO. Campo ESTOQUE_MAX alterado para ESTOQUE_MAXIMO.
+[-] Tabela PRODUTO. Campo QTD_ESTOQUE_ANTERIOR removido.
+[-] Tabela PRODUTO. Campo DATA_ESTOQUE removido.

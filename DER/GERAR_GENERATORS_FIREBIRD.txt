@@ -1,0 +1,112 @@
+CREATE PROCEDURE GERAR_GENERATORS
+AS
+    DECLARE VARIABLE VNOMETABELA VARCHAR(100);
+    DECLARE VARIABLE VSQL VARCHAR(1000);
+begin
+    FOR
+		SELECT DISTINCT T.RDB$RELATION_NAME TABELA
+		FROM RDB$USER_PRIVILEGES T
+		WHERE T.RDB$RELATION_NAME NOT LIKE 'RDB$%' AND T.RDB$OBJECT_TYPE=0
+		ORDER BY 1
+        INTO :VNOMETABELA
+    DO
+    BEGIN
+		VSQL = '';
+		VSQL = 'CREATE GENERATOR ' || :VNOMETABELA;
+		EXECUTE STATEMENT VSQL;
+		
+        VSQL = '';
+        VSQL = 
+				'CREATE TRIGGER ' || :VNOMETABELA || 
+				'  FOR ' || :VNOMETABELA || ' BEFORE INSERT ' ||
+				'  AS ' || 
+				'  BEGIN ' || 
+				'    IF (NEW.ID IS NULL) THEN ' ||
+				'      NEW.ID = GEN_ID(' || :VNOMETABELA || ', 1);' ||
+				'  END ';
+		EXECUTE STATEMENT VSQL;
+    END
+end
+
+
+CREATE PROCEDURE DELETAR_GENERATORS
+AS
+    DECLARE VARIABLE VNOMETABELA VARCHAR(100);
+    DECLARE VARIABLE VSQL VARCHAR(1000);
+begin
+    FOR
+		SELECT DISTINCT T.RDB$RELATION_NAME TABELA
+		FROM RDB$USER_PRIVILEGES T
+		WHERE T.RDB$RELATION_NAME NOT LIKE 'RDB$%' AND T.RDB$OBJECT_TYPE=0
+		ORDER BY 1
+        INTO :VNOMETABELA
+    DO
+    BEGIN
+		VSQL = '';
+		VSQL = 'DROP GENERATOR ' || :VNOMETABELA;
+		EXECUTE STATEMENT VSQL;
+    END
+end
+
+
+CREATE PROCEDURE DELETAR_TIGGERS
+AS
+    DECLARE VARIABLE VNOMETABELA VARCHAR(100);
+    DECLARE VARIABLE VSQL VARCHAR(1000);
+begin
+    FOR
+        SELECT DISTINCT T.RDB$RELATION_NAME TABELA
+        FROM RDB$USER_PRIVILEGES T
+        WHERE T.RDB$RELATION_NAME NOT LIKE 'RDB$%' AND T.RDB$OBJECT_TYPE=0
+        ORDER BY 1
+        INTO :VNOMETABELA
+    DO
+    BEGIN
+        VSQL = '';
+        VSQL = 'DROP TRIGGER ' || :VNOMETABELA;
+        EXECUTE STATEMENT VSQL;
+    END
+end
+
+
+SELECT RDB$TRIGGER_NAME FROM RDB$TRIGGERS
+SELECT RDB$GENERATOR_NAME FROM RDB$GENERATORS
+
+
+
+SET NAMES NONE;
+
+CONNECT 'C:\Documents and Settings\Eije\Desktop\ERP.fdb' USER 'SYSDBA' PASSWORD 'masterkey';
+
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('1','01','Nota Fiscal','1/1ª');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('2','1B','Nota Fiscal Avulsa','-');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('3','02','Nota Fiscal de Venda a Consumidor','2');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('4','2D','Cupom Fiscal','-');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('5','2E','Cupom Fiscal Bilhete de Passagem','-');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('6','04','Nota Fiscal de Produtor','4');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('7','06','Nota Fiscal/Conta de Energia Elétrica','6');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('8','07','Nota Fiscal de Serviço de Transporte','7');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('9','08','Conhecimento de Transporte Rodoviário de Cargas','8');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('10','8B','Conhecimento de Transporte de Cargas Avulso','-');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('11','09','Conhecimento de Transporte Aquaviário de Cargas','9');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('12','10','Conhecimento Aéreo','10');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('13','11','Conhecimento de Transporte Ferroviário de Cargas','11');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('14','13','Bilhete de Passagem Rodoviário','13');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('15','14','Bilhete de Passagem Aquaviário','14');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('16','15','Bilhete de Passagem e Nota de Bagagem','15');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('17','17','Despacho de Transporte','17');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('18','16','Bilhete de Passagem Ferroviário','16');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('19','18','Resumo de Movimento Diário','18');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('20','20','Ordem de Coleta de Cargas','20');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('21','21','Nota Fiscal de Serviço de Comunicação','21');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('22','22','Nota Fiscal de Serviço de Telecomunicação','22');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('23','23','GNRE','23');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('24','24','Autorização de Carregamento e Transporte','24');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('25','25','Manifesto de Carga','25');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('26','26','Conhecimento de Transporte Multimodal de Cargas','26');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('27','27','Nota Fiscal De Transporte Ferroviário De Carga','-');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('28','28','Nota Fiscal/Conta de Fornecimento de Gás Canalizado','-');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('29','29','Nota Fiscal/Conta De Fornecimento DAgua Canalizada','-');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('30','55','Nota Fiscal Eletronica',' ');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('31','57','Conhecimento de Transporte Eletronico - CT-e','-');
+insert into modelo_nota_fiscal (ID, CODIGO, DESCRICAO, MODELO) values('32','59','Cupom Fiscal Eletronico - CF-e','-');

@@ -1,0 +1,472 @@
+{*******************************************************************************
+Title: T2Ti ERP 2.0
+Description: Change-log-DER_Retaguarda
+
+The MIT License
+
+Copyright: Copyright (C) 2010 T2Ti.COM
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+       The author may be contacted at:
+           t2ti.com@gmail.com</p>
+
+@author Albert Eije
+@version 2.0
+*******************************************************************************}
+
+{******************************************************************************
+|* T2Ti ERP 2.0 - DER Retaguarda
+|*
+|* PROPÓSITO: Registro de Alterações
+******************************************************************************}
+
+Símbolo : Significado
+
+[+]     : Novo recurso (tabela/campo/relacionamento)
+[*]     : Recurso modificado/melhorado (tabela/campo/relacionamento)
+[-]     : Remoção de recurso (tabela/campo/relacionamento)
+
+
+Versão 2.0.0.16 - 01/11/2016
+-----------------------------
+[+] Tabela IBPT incluída.
+
+
+Versão 2.0.0.15 - 05/05/2016
+-----------------------------
+[*] Tabela CONDICOES_PAGAMENTO. Nome alterado para VENDA_CONDICOES_PAGAMENTO.
+[+] Tabela CONDICOES_PAGAMENTO. Incluido o campo VISTA_PRAZO.
+[+] Tabela PRODUTO_COMBO adicionada.
+[+] Tabela PRODUTO_COMBO_ITEM adicionada.
+[+] Tabela ESTOQUE_REAJUSTE_CABECALHO. Campos JUSTIFICATIVA, CAMPO_REAJUSTE e QUANTIDADE_FIXA adicionado.
+[+] Tabela ESTOQUE_REAJUSTE_DETALHE. Campos QUANTIDADE_ORIGINAL e QUANTIDADE_REAJUSTE adicionado.
+[+] Tabela DAV_DETALHE. Campo SERVICO_FORMULA adicionado.
+[+] Tabela DAV_CABECALHO. Campo TIPO adicionado.
+
+
+Versão 2.0.0.14 - 02/03/2016
+-----------------------------
+[+] Tabela FIN_CONFIGURACAO_BOLETO. Campos TAXA_JURO, DIAS_PROTESTO, NOSSO_NUMERO_ANTERIOR incluídos a pedido.
+[+] Tabela NFE_CABECALHO. Campo QUANTIDADE_IMPRESSAO_DANFE incluído.
+
+
+Versão 2.0.0.13 - 01/12/2015
+-----------------------------
+[+] Incluído relacionamento entre CONTA_CAIXA e FIN_CHEQUE_RECEBIDO.
+[+] Tabela FIN_CHEQUE_RECEBIDO. Campo DESCONTO_DATA incluído.
+[+] Tabela FIN_CHEQUE_RECEBIDO. Campo DESCONTO_TARIFA incluído.
+[+] Tabela FIN_CHEQUE_RECEBIDO. Campo DESCONTO_COMISSAO incluído.
+
+
+Versão 2.0.0.12 - 16/11/2015
+-----------------------------
+[+] Inclusão da tabela FIN_PAGAMENTO_FIXO.
+[+] Tabela FIN_LANCAMENTO_PAGAR. Incluído o campo MESCLADO_PARA.
+[+] Tabela FIN_LANCAMENTO_RECEBER. Incluído o campo MESCLADO_PARA.
+[+] Tabela FIN_LANCAMENTO_RECEBER. Incluído o campo VALOR_DESCONTO_CONVENIO.
+
+
+Versão 2.0.0.11 - 03/11/2015
+-----------------------------
+[+] Inclusão das tabelas do módulo WMS.
+[+] Tabela COMISSAO_PERFIL incluída.
+[+] Tabela COMISSAO_OBJETIVO incluída.
+[+] Tabela VENDEDOR. Incluídos os campos GERENTE e TAXA_GERENTE.
+
+
+Versão 2.0.0.10 - 09/10/2015
+-----------------------------
+[+] Tabela ESTOQUE_TAMANHO. Campos ALTURA, COMPRIMENTO, LARGURA incluídos.
+[+] Tabela ESTOQUE_SABOR incluída.
+[+] Tabela ESTOQUE_MARCA incluída.
+[*] Tabela ESTOQUE_CONTAGEM_CABECALHO. Nome alterado para INVENTARIO_CONTAGEM_CAB.
+[*] Tabela ESTOQUE_CONTAGEM_DETALHE. Nome alterado para INVENTARIO_CONTAGEM_DET.
+[+] Tabela INVENTARIO_CONTAGEM_DET. Campos CONTAGEM01, CONTAGEM02, CONTAGEM03, FECHADO_CONTAGEM incluídos.
+[+] Tabela INVENTARIO_CONTAGEM_CAB. Campo TIPO incluído.
+[*] Tabela PRODUTO_SUB_GRUPO. Nome alterado para PRODUTO_SUBGRUPO.
+[+] Tabela PRODUTO. Campo CUSTO_UNITARIO incluído.
+[+] Tabela PRODUTO. Campo CUSTO_PRODUCAO incluído.
+[*] Tabela PRODUTO. Campo FOTO_PRODUTO alterado para IMAGEM.
+[+] Tabela PRODUTO. Campo SERVICO incluído.
+[+] Tabela FICHA_TECNICA. Campo SEQUENCIA_PRODUCAO incluído.
+[+] Tabela PCP_OP_CABECALHO incluída.
+[+] Tabela PCP_OP_DETALHE incluída.
+[+] Tabela PCP_INSTRUCAO incluída.
+[+] Tabela PCP_SERVICO.
+[+] Tabela PCP_SERVICO_COLABORADOR incluída.
+[+] Tabela PCP_INSTRUCAO_OP incluída.
+[+] Tabela PCP_SERVICO_EQUIPAMENTO incluída.
+
+
+Versão 2.0.0.9 - 05/10/2015
+-----------------------------
+[+] Tabela FIN_COBRANCA incluída.
+[+] Tabela FIN_COBRANCA_PARCELA_RECEBER incluída.
+[+] Tabela FIN_CHEQUE_RECEBIDO. Campo CUSTODIA_DATA incluído.
+[+] Tabela FIN_CHEQUE_RECEBIDO. Campo CUSTODIA_TARIFA incluído.
+[+] Tabela FIN_CHEQUE_RECEBIDO. Campo CUSTODIA_COMISSAO incluído.
+[+] Tabela FIN_CHEQUE_RECEBIDO. Campo VALOR_RECEBIDO incluído.
+[+] Tabela NATUREZA_JURIDICA incluída. [eSocial]
+[+] Tabela CLASSIFICACAO_TRIBUTARIA incluída. [eSocial]
+[+] Tabela FOLHA_EVENTO. Campo RUBRICA_ESOCIAL incluído.
+[+] Tabela ESOCIAL_RUBRICA incluída. [eSocial]
+[+] Tabela FOLHA_EVENTO. Campo COD_INCIDENCIA_PREVIDENCIA incluído.
+[+] Tabela FOLHA_EVENTO. Campo COD_INCIDENCIA_IRRF incluído.
+[+] Tabela FOLHA_EVENTO. Campo COD_INCIDENCIA_FGTS incluído.
+[+] Tabela FOLHA_EVENTO. Campo COD_INCIDENCIA_SINDICATO incluído.
+[+] Tabela FOLHA_EVENTO. Campo REPERCUTE_DSR incluído.
+[+] Tabela FOLHA_EVENTO. Campo REPERCUTE_13 incluído.
+[+] Tabela FOLHA_EVENTO. Campo REPERCUTE_FERIAS incluído.
+[+] Tabela FOLHA_EVENTO. Campo REPERCUTE_AVISO incluído.
+[+] Tabela FOLHA_TIPO_AFASTAMENTO. Campo CODIGO_ESOCIAL incluído.
+[+] Tabela ESOCIAL_TIPO_AFASTAMENTO incluída. [eSocial]
+[+] Tabela FOLHA_RESCISAO. Campo MOTIVO_ESOCIAL incluído.
+[+] Tabela ESOCIAL_MOTIVO_DESLIGAMENTO incluída. [eSocial]
+
+
+Versão 2.0.0.8 - 01/10/2015
+-----------------------------
+[+] Tabela NFE_NUMERO_INUTILIZADO incluída.
+[+] Incluídas tabelas da região CT-e
+
+
+Versão 2.0.0.7 - 23/06/2015
+-----------------------------
+[+] Tabela OS_ABERTURA incluída.
+[+] Tabela OS_STATUS incluída.
+[+] Tabela OS_EQUIPAMENTO incluída.
+[+] Tabela OS_ABERTURA_EQUIPAMENTO incluída.
+[+] Tabela OS_PRODUTO_SERVICO incluída.
+[+] Tabela OS_EVOLUCAO incluída.
+[+] Tabela NFSE_CABECALHO incluída.
+[+] Tabela NFSE_DETALHE incluída.
+[+] Tabela NFSE_INTERMEDIARIO incluída.
+[+] Tabela NFSE_LISTA_SERVICO incluída.
+
+
+Versão 2.0.0.6 - 18/06/2015
+-----------------------------
+[+] Tabela CONTABIL_LOTE. Campo VALOR incluído.
+[+] Tabela GED_DOCUMENTO_CABECALHO incluída.
+[*] Tabela GED_DOCUMENTO. Nome alterado para GED_DOCUMENTO_DETALHE.
+[+] Tabela MALOTE_DIGITAL_DOCUMENTO incluída.
+[+] Tabela MALOTE_DIGITAL_DESTINATARIO incluída.
+[+] Tabela MALOTE_DIGITAL_ACESSO incluída.
+[+] Tabela ETIQUETA_FORMATO_PAPEL incluída.
+[+] Tabela ETIQUETA_LAYOUT incluída.
+[+] Tabela ETIQUETA_TEMPLATE incluída.
+[+] Tabela REUNIAO_SALA incluída.
+[+] Tabela REUNIAO_SALA_EVENTO incluída.
+[+] Tabela AGENDA_COMPROMISSO incluída.
+[+] Tabela AGENDA_COMPROMISSO_CONVIDADO incluída.
+[+] Tabela AGENDA_CATEGORIA_COMPROMISSO incluída.
+[+] Tabela AGENDA_NOTIFICACAO incluída.
+[+] Tabela RECADO_REMETENTE incluída.
+[+] Tabela RECADO_DESTINATARIO incluída.
+
+
+Versão 2.0.0.5 - 26/02/2015
+-----------------------------
+[+] Tabela NFCE_MOVIMENTO incluída.
+[+] Tabela NFCE_TURNO incluída.
+[+] Tabela NFCE_OPERADOR incluída.
+[+] Tabela NFCE_CAIXA incluída.
+[+] Tabela NFCE_FECHAMENTO incluída.
+[+] Tabela NFCE_SUPRIMENTO incluída.
+[+] Tabela NFCE_SANGRIA incluída.
+[+] Tabela NFCE_POSICAO_COMPONENTES incluída.
+[+] Tabela NFCE_RESOLUCAO incluída.
+[+] Tabela NFCE_CONFIGURACAO incluída.
+[+] Tabela NFCE_CONFIGURACAO_BALANCA incluída.
+[+] Tabela NFCE_CONFIGURACAO_LEITOR_SER incluída.
+[+] Tabela NFCE_TIPO_PAGAMENTO incluída.
+[+] Tabela NFE_FORMA_PAGAMENTO. Campo ESTORNO incluído.
+[+] Incluído relacionamento entre NFE_CABECALHO e VENDEDOR [utilizado pela NFC-e].
+[+] Incluído relacionamento entre NFE_CABECALHO e NFCE_MOVIMENTO [utilizado pela NFC-e].
+
+
+Versão 2.0.0.4 - 18/12/2014
+-----------------------------
+[-] Tabela FORNECEDOR. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela FORNECEDOR. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[-] Tabela CLIENTE. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela CLIENTE. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[-] Tabela COLABORADOR. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela COLABORADOR. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[-] Tabela CONVENIO. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela CONVENIO. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[+] Tabela CONVENIO. Campo CIDADE incluído.
+[-] Tabela OPERADORA_CARTAO. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela OPERADORA_CARTAO. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[-] Tabela TRANSPORTADORA. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela TRANSPORTADORA. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[-] Tabela CONTA_CAIXA. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela CONTA_CAIXA. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[-] Tabela OPERADORA_PLANO_SAUDE. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela OPERADORA_PLANO_SAUDE. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[-] Tabela SINDICATO. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela SINDICATO. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[-] Tabela EMPRESA_TRANSPORTE. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela EMPRESA_TRANSPORTE. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[-] Tabela CONTRATO. Removido relacionamento com CONTABIL_CONTA.
+[+] Tabela CONTRATO. Campo CLASSIFICACAO_CONTABIL_CONTA incluído.
+[+] Tabela MUNICIPIO. Campo UF_SIGLA incluído.
+
+
+
+Versão 2.0.0.3 - 22/08/2014
+-----------------------------
+[*] Tabela NFE_CONFIGURACAO. Campos alterados para TEXT: 
+	caminho_logomarca
+	certificado_digital_caminho
+	caminho_salvar_xml
+	caminho_schemas
+	caminho_arquivo_danfe
+	caminho_salvar_pdf
+[+] Incluída a tabela PESSOA_ALTERACAO.
+	[Essa tabela tem por objetivo armazenar todas as alterações realizadas em PESSOA, PESSOA_FISICA, PESSOA_JURIDICA, ENDERECO 
+	para que seja possível gerar o registro 0175 do Sped Fiscal. Deve-se armazenar os objetos serializados e realizar os devidos testes no momento da geração do arquivo.]
+[*] Tabela NFE_CABECALHO. Campo SERIE alterado para CHAR.
+	[No manual da NF-e é um campo numérico, mas no do Sped é um campo Texto. Seguiremos o padrão Sped.]
+[*] Tabela NFE_NF_REFERENCIADA. Campo SERIE alterado para CHAR.
+	[No manual da NF-e é um campo numérico, mas no do Sped é um campo Texto. Seguiremos o padrão Sped.]
+[*] Tabela NFE_PROD_RURAL_REFERENCIADA. Campo SERIE alterado para CHAR.
+	[No manual da NF-e é um campo numérico, mas no do Sped é um campo Texto. Seguiremos o padrão Sped.]
+[*] Tabela TIPO_NOTA_FISCAL. Nome alterado para NOTA_FISCAL_TIPO.
+[-] Tabela NOTA_FISCAL_TIPO. Campo TEMPLATE removido.
+[-] Tabela NOTA_FISCAL_TIPO. Campo NUMERO_ITENS removido.
+[-] Tabela NOTA_FISCAL_TIPO. Campo MODELO removido.
+[+] Tabela NOTA_FISCAL_TIPO. Campo SERIE_SCAN incluído.
+[*] Tabela NOTA_FISCAL_TIPO. Campo ULTIMO_IMPRESSO renomeado para ULTIMO_NUMERO.
+[*] Tabela MODELO_NOTA_FISCAL. Nome alterado para NOTA_FISCAL_MODELO.
+[+] Incluído relacionamento entre NOTA_FISCAL_MODELO e NOTA_FISCAL_TIPO.
+[+] Tabela PESSOA_ENDERECO. Incluído o campo: FONE.
+	[Havia sido removido, mas vamos deixar. O fone principal fica nessa tabela, os demais na tabela PESSOA_TELEFONE]
+[+] Tabela EMPRESA_ENDERECO. Incluído o campo: FONE.
+	[Havia sido removido, mas vamos deixar. O fone principal fica nessa tabela, os demais na tabela EMPRESA_TELEFONE]
+[+] Tabela NFE_CABECALHO. Campo COMEX_LOCAL_DESPACHO incluído.
+	[xLocDespacho - Descrição do local de despacho]
+[*] Tabela NFE_CABECALHO. Campo CODIGO_NUMERICO alterado para VARCHAR.
+[*] Tabela NFE_CABECALHO. Campo NUMERO alterado para VARCHAR.
+[*] Tabela NFE_CABECALHO. Campo DIGITO_CHAVE_ACESSO alterado para CHAR.
+[*] Tabela PRE_VENDA_CABECALHO. Campo DATA_PV alterado para DATA_EMISSAO.
+[*] Tabela PRE_VENDA_CABECALHO. Campo HORA_PV alterado para HORA_EMISSAO.
+[+] Tabela EMPRESA. Incluído o campo TIPO_CONTROLE_ESTOQUE.
+	C=Centralizado [incremento/decremento ocorre na tabela PRODUTO] | D=Descentralizado [incremento/decremento ocorre na tabela EMPRESA_PRODUTO]
+[+] Tabela EMPRESA_PRODUTO. Incluído o campo QUANTIDADE_ESTOQUE.
+
+
+Versão 2.0.0.2 - 22/07/2014
+-----------------------------
+[-] Tabela DAV_CABECALHO. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[+] Tabela DAV_CABECALHO. Incluído o campo: LOGSS.
+[-] Tabela DAV_DETALHE. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[+] Tabela DAV_DETALHE. Incluído o campo: LOGSS.
+[+] Incluída a tabela LOGSS.
+[+] Incluída a tabela ECF_E3.
+[-] Tabela ECF_VENDA_CABECALHO. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[+] Tabela ECF_VENDA_CABECALHO. Incluído o campo: LOGSS.
+[-] Tabela ECF_VENDA_DETALHE. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[+] Tabela ECF_VENDA_DETALHE. Incluído o campo: LOGSS.
+[-] Tabela ECF_TOTAL_TIPO_PAGAMENTO. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[+] Tabela ECF_TOTAL_TIPO_PAGAMENTO. Incluído o campo: LOGSS.
+[-] Tabela ECF_R06. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[+] Tabela ECF_R06. Incluído o campo: LOGSS.
+[+] Tabela ECF_R07. Incluído o campo: LOGSS.
+[+] Tabela ECF_SINTEGRA_60M. Incluído o campo: DATA_SINCRONIZACAO.
+[+] Tabela ECF_SINTEGRA_60M. Incluído o campo: HORA_SINCRONIZACAO.
+[+] Tabela ECF_SINTEGRA_60A. Incluído o campo: DATA_SINCRONIZACAO.
+[+] Tabela ECF_SINTEGRA_60A. Incluído o campo: HORA_SINCRONIZACAO.
+[-] Tabela ECF_R02. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[+] Tabela ECF_R02. Incluído o campo: LOGSS.
+[-] Tabela ECF_R03. Removidos os campos: HASH_TRIPA e HASH_INCREMENTO.
+[+] Tabela ECF_R03. Incluído o campo: LOGSS.
+[*] Tabela NFE_CABECALHO. Campo DATA_EMISSAO nome alterado para DATA_HORA_EMISSAO. Tipo alterado para TIMESTAMP.
+[*] Tabela NFE_CABECALHO. Campo DATA_ENTRADA_SAIDA nome alterado para DATA_HORA_ENTRADA_SAIDA. Tipo alterado para TIMESTAMP.
+[-] Tabela NFE_CABECALHO. Campo HORA_ENTRADA_SAIDA removido.
+[+] Tabela NFE_CABECALHO. Campo LOCAL_DESTINO incluído.
+	[idDest - Identificador de local de destino da   operação - 1=Operação interna;  2=Operação interestadual;  3=Operação com exterior.]
+[+] Tabela NFE_CABECALHO. Campo CONSUMIDOR_OPERACAO incluído.
+	[indFinal - Indica operação com Consumidor final  - 0=Normal;  1=Consumidor final;]
+[+] Tabela NFE_CABECALHO. Campo CONSUMIDOR_PRESENCA incluído.
+	[indPres - Indicador de presença do comprador no   estabelecimento comercial no momento da   operação 
+	0=Não se aplica (por exemplo, para a Nota Fiscal   complementar ou de ajuste);  1=Operação presencial;  2=Operação não presencial, pela Internet;  3=Operação não presencial, Teleatendimento;  4=NFC-e em operação com entrega em domicílio;  9=Operação não presencial, outros.  Nota: Para a NFC-e, somente são aceitas as opções 1 e   4.]
+[+] Tabela NFE_DESTINATARIO. Campo ESTRANGEIRO_IDENTIFICACAO incluído.
+	[idEstrangeiro - Informar esta tag no caso de operação com o exterior,   ou para comprador estrangeiro. Informar o número do   passaporte ou outro documento legal para identificar   pessoa estrangeira (campo aceita valor nulo).]
+[*] Tabela NFE_DESTINATARIO. Campo RAZAO_SOCIAL nome alterado para NOME.
+[+] Tabela NFE_DESTINATARIO. Campo INDICADOR_IE incluído.
+	[indIEDest - Indicador da IE do Destinatário - 1=Contribuinte ICMS (informar a IE do destinatário);  2=Contribuinte isento de Inscrição no cadastro de   Contribuintes do ICMS;  9=Não Contribuinte, que pode ou não possuir Inscrição   Estadual no Cadastro de Contribuintes do ICMS;  Nota 1: No caso de NFC-e informar indIEDest=9 e não   informar a tag IE do destinatário;  Nota 2: No caso de operação com o Exterior informar   indIEDest=9 e não informar a tag IE do destinatário;  Nota 3: No caso de Contribuinte Isento de Inscrição   (indIEDest=2), não informar a tag IE do destinatário.]
+[+] Incluída a tabela LOGSS.
+[+] Tabela NFE_DETALHE. Campo NVE incluído.
+	[Codificação NVE - Nomenclatura de Valor   Aduaneiro e Estatística. Codificação opcional que detalha alguns NCM.  Formato: duas letras maiúsculas e 4 algarismos. Se a   mercadoria se enquadrar em mais de uma codificação,   informar até 8 codificações principais.  Vide: Anexo X - Identificador NVE.]
+[+] Tabela NFE_DECLARACAO_IMPORTACAO. Campo VIA_TRANSPORTE  incluído.
+	[tpViaTransp  - Via de transporte internacional informada   na Declaração de Importação (DI) 
+	1=Marítima;  2=Fluvial;  3=Lacustre;  4=Aérea;  5=Postal  6=Ferroviária;  7=Rodoviária;  8=Conduto / Rede Transmissão;  9=Meios Próprios;  10=Entrada / Saída ficta;]
+[+] Tabela NFE_DECLARACAO_IMPORTACAO. Campo VALOR_AFRMM incluído.
+	[vAFRMM - Valor da AFRMM - Adicional ao Frete para   Renovação da Marinha Mercante - A tag deve ser informada no caso da via de transporte   marítima. ]
+[+] Tabela NFE_DECLARACAO_IMPORTACAO. Campo FORMA_INTERMEDIACAO incluído.
+	[tpIntermedio - Forma de importação quanto a   intermediação - 1=Importação por conta própria;  2=Importação por conta e ordem;  3=Importação por encomenda;]
+[+] Tabela NFE_DECLARACAO_IMPORTACAO. Campo CNPJ incluído.
+	[CNPJ do adquirente ou do encomendante. Informação obrigatória no caso de importação por conta   e ordem ou por encomenda. Informar os zeros não   significativos]
+[+] Tabela NFE_DECLARACAO_IMPORTACAO. Campo UF_TERCEIRO incluído.
+	[UFTerceiro - Sigla da UF do adquirente ou do   encomendante - Informação obrigatória no caso de importação por conta   e ordem ou por encomenda. Não aceita o valor "EX".]
+[+] Tabela NFE_IMPORTACAO_DETALHE. Campo DRAWBACK incluído.
+	[Número do ato concessório de Drawback]
+[+] Incluída a tabela NFE_EXPORTACAO.
+[*] Tabela NFE_CABECALHO. Campo INDICADOR_FORMA_PAGAMENTO alterado para INTEGER.
+[*] Tabela NFE_CABECALHO. Campo CODIGO_NUMERICO alterado para INTEGER.
+[*] Tabela NFE_CABECALHO. Campo SERIE alterado para INTEGER.
+[*] Tabela NFE_CABECALHO. Campo NUMERO alterado para INTEGER.
+[*] Tabela NFE_CABECALHO. Campo TIPO_OPERACAO alterado para INTEGER.
+[*] Tabela NFE_CABECALHO. Campo FORMATO_IMPRESSAO_DANFE alterado para INTEGER.
+[*] Tabela NFE_CABECALHO. Campo TIPO_EMISSAO alterado para INTEGER.
+[*] Tabela NFE_CABECALHO. Campo DIGITO_CHAVE_ACESSO alterado para INTEGER.
+[*] Tabela NFE_CABECALHO. Campo AMBIENTE alterado para INTEGER.
+[*] Tabela NFE_CABECALHO. Campo FINALIDADE_EMISSAO alterado para INTEGER.
+[*] Tabela NFE_CABECALHO. Campo PROCESSO_EMISSAO alterado para INTEGER.
+[*] Tabela NFE_NF_REFERENCIADA. Campo SERIE alterado para INTEGER.
+[*] Tabela NFE_NF_REFERENCIADA. Campo NUMERO_NF alterado para INTEGER.
+[*] Tabela NFE_PROD_RURAL_REFERENCIADA. Campo SERIE alterado para INTEGER.
+[*] Tabela NFE_PROD_RURAL_REFERENCIADA. Campo NUMERO_NF alterado para INTEGER.
+[*] Tabela NFE_EMITENTE. Campo RAZAO_SOCIAL nome alterado para NOME.
+[*] Tabela NFE_EMITENTE. Campo SUFRAMA alterado para INTEGER.
+[*] Tabela NFE_DESTINATARIO. Campo SUFRAMA alterado para INTEGER.
+[+] Tabela NFE_DESTINATARIO. Campo INSCRICAO_MUNICIPAL incluído.
+	[Inscrição Municipal do Tomador do   Serviço - Campo opcional, pode ser informado na NF-e conjugada,   com itens de produtos sujeitos ao ICMS e itens de   serviços sujeitos ao ISSQN.]
+[+] Incluída a tabela NFE_ACESSO_XML.
+[*] Tabela NFE_DETALHE. Campo ENTRA_TOTAL alterado para INTEGER.
+[+] Tabela NFE_DETALHE. Campo NUMERO_FCI incluído.
+	[nFCI - Número de controle da FCI - Ficha de   Conteúdo de Importação]
+[+] Tabela NFE_DET_ESPECIFICO_COMBUSTIVEL. Campo PERCENTUAL_GAS_NATURAL incluído.
+	[pMixGN - Percentual de Gás Natural para o produto GLP (cProdANP=210203001)]
+[+] Tabela NFE_DETALHE. Campo NUMERO_RECOPI incluído.
+	[nRECOPI - Número do RECOPI - LB. Detalhamento Específico para Operação com Papel Imune]
+[+] Tabela NFE_DETALHE. Campo VALOR_TOTAL_TRIBUTOS incluído.
+	[vTotTrib - Valor aproximado total de tributos   federais, estaduais e municipais. (NT 2013/003) ]
+[+] Tabela NFE_DETALHE_IMPOSTO_ICMS. Campo VALOR_ICMS_DESONERADO incluído.
+	[vICMSDeson  - Valor do ICMS desonerado - Informar apenas nos motivos de desoneração documentados abaixo - VIDE MANUAL.]
+[+] Tabela NFE_DETALHE_IMPOSTO_ICMS. Campo VALOR_ICMS_OPERACAO incluído.
+	[vICMSOp  - Valor como se não tivesse o diferimento]
+[+] Tabela NFE_DETALHE_IMPOSTO_ICMS. Campo PERCENTUAL_DIFERIMENTO incluído.
+	[pDif - Percentual do diferimento - No caso de diferimento total, informar o percentual de   diferimento "100".]
+[+] Tabela NFE_DETALHE_IMPOSTO_ICMS. Campo VALOR_ICMS_DIFERIDO incluído.
+	[vICMSDif - Valor do ICMS diferido]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo VALOR_DEDUCAO incluído.
+	[vDeducao - Valor dedução para redução da Base   de Cálculo]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo VALOR_OUTRAS_RETENCOES incluído.
+	[vOutro - Valor outras retenções]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo VALOR_DESCONTO_INCONDICIONADO incluído.
+	[vDescIncondo - Valor desconto incondicionado]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo VALOR_DESCONTO_CONDICIONADO incluído.
+	[vDescCond - Valor desconto condicionado]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo VALOR_RETENCAO_ISS incluído.
+	[vISSRet - Valor retenção ISS]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo INDICADOR_EXIGIBILIDADE_ISS incluído.
+	[indISS - 1=Exigível, 2=Não incidência; 3=Isenção; 4=Exportação;   5=Imunidade; 6=Exigibilidade Suspensa por Decisão   Judicial; 7=Exigibilidade Suspensa por Processo   Administrativo]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo CODIGO_SERVICO incluído.
+	[cServico - Código do serviço prestado dentro do   município]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo MUNICIPIO_INCIDENCIA incluído.
+	[cMun - Código do Município de incidência do   imposto]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo PAIS_SEVICO_PRESTADO incluído.
+	[cPais  - Código do País onde o serviço foi   prestado]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo NUMERO_PROCESSO incluído.
+	[nProcesso - Número do processo judicial ou   administrativo de suspensão da   exigibilidade]
+[+] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo INDICADOR_INCENTIVO_FISCAL incluído.
+	[indIncentivo - Indicador de incentivo Fiscal - 1=Sim; 2=Não]
+[-] Tabela NFE_DETALHE_IMPOSTO_ISSQN. Campo TRIBUTACAO_ISSQN removido.
+[+] Tabela NFE_DETALHE. Campo PERCENTUAL_DEVOLVIDO incluído.
+	[pDevol - Percentual da mercadoria devolvida]
+[+] Tabela NFE_DETALHE. Campo VALOR_IPI_DEVOLVIDO incluído.
+	[vIPIDevol  - Valor do IPI devolvido]
+[+] Tabela NFE_CABECALHO. Campo VALOR_ICMS_DESONERADO incluído.
+	[vICMSDeson - Valor Total do ICMS desonerado]
+[+] Tabela NFE_CABECALHO. Campo DATA_PRESTACAO_SERVICO incluído.
+	[dCompet - Data da prestação do serviço]
+[+] Tabela NFE_CABECALHO. Campo VALOR_DEDUCAO_ISSQN incluído.
+	[vDeducao - Valor total dedução para redução da   Base de Cálculo]
+[+] Tabela NFE_CABECALHO. Campo OUTRAS_RETENCOES_ISSQN incluído.
+	[vOutro - Valor total outras retenções ]
+[+] Tabela NFE_CABECALHO. Campo DESCONTO_INCONDICIONADO_ISSQN incluído.
+	[vDescIncond - Valor total desconto incondicionado]
+[+] Tabela NFE_CABECALHO. Campo DESCONTO_CONDICIONADO_ISSQN incluído.
+	[vDescCond - Valor total desconto condicionado]
+[+] Tabela NFE_CABECALHO. Campo TOTAL_RETENCAO_ISSQN incluído.
+	[vISSRet - Valor total retenção ISS]
+[+] Tabela NFE_CABECALHO. Campo REGIME_ESPECIAL_TRIBUTACAO incluído.
+	[cRegTrib - Código do Regime Especial de   Tributação
+	1=Microempresa Municipal; 2=Estimativa;  3=Sociedade de Profissionais; 4=Cooperativa;  5=Microempresário Individual (MEI);  6=Microempresário e Empresa de Pequeno Porte   (ME/EPP)]
+[*] Tabela NFE_TRANSPORTE. Campo MODALIDADE_FRETE alterado para INTEGER.
+[+] Incluída a tabela NFE_FORMA_PAGAMENTO.
+[+] Tabela CONTA_CAIXA. Campo LIMITE_CREDITO incluído.
+[*] Tabela CONTABIL_PARAMETROS. Nome alterado para CONTABIL_PARAMETRO.
+[+] Incluída a tabela PESSOA_TELEFONE.
+[-] Tabela PESSOA_ENDERECO. Removidos os campos: FONE E FAX.
+[+] Incluída a tabela EMPRESA_TELEFONE.
+[-] Tabela EMPRESA_ENDERECO. Removidos os campos: FONE E FAX.
+[*] Tabela FOLHA_PARAMETROS. Nome alterado para FOLHA_PARAMETRO.
+[*] Tabela VENDA_CONDICOES_PAGAMENTO. Nome alterado para CONDICOES_PAGAMENTO.
+[*] Tabela FISCAL_PARAMETROS. Nome alterado para FISCAL_PARAMETRO.
+[+] Tabela FIN_LCTO_PAGAR_NT_FINANCEIRA. Campo PERCENTUAL incluído.
+[+] Tabela FIN_LCTO_RECEBER_NT_FINANCEIRA. Campo PERCENTUAL incluído.
+	
+
+Versão 2.0.0.1 - 22/05/2014
+-----------------------------
+[*] Tabela BASE_CREDITO_PIS. Nome alterado para EFD_TABELA_437.
+[*] Tabela EFD_TABELA_437. Campo CODIGO alterado de INTEGER para CHAR(2).
+[*] Tabela CODIGO_APURACAO_EFD. Nome alterado para EFD_TABELA_435.
+[+] Tabela COMPRA_REQUISICAO. Inserido o campo OBSERVACAO TEXT.
+[-] Tabela CONTADOR. Removido relacionamento com tabela PESSOA.
+[+] Tabela CONTADOR. Inserido o campo NOME VARCHAR(150).
+[+] Tabela CONTADOR. Inserido o campo CPF VARCHAR(11).
+[+] Tabela CONTADOR. Inserido o campo CNPJ VARCHAR(14).
+[+] Tabela CONTADOR. Inserido o campo SITE VARCHAR(250).
+[-] Tabela CONTATO. Removido relacionamento com tabela EMPRESA.
+[*] Tabela CONTATO. Renomeada para PESSOA_CONTATO.
+[+] Tabela EMPRESA_CONTATO adicionada.
+[-] Tabela CONVENIO. Removido relacionamento com tabela PESSOA.
+[+] Tabela CONVENIO. Inserido o campo NOME VARCHAR(150).
+[+] Tabela CONVENIO. Inserido o campo CNPJ VARCHAR(14).
+[+] Tabela CONVENIO. Inserido o campo EMAIL VARCHAR(250).
+[+] Tabela CONVENIO. Inserido o campo SITE VARCHAR(250).
+[-] Tabela ENDERECO. Removido relacionamento com tabela EMPRESA.
+[*] Tabela ENDERECO. Renomeada para PESSOA_ENDERECO.
+[+] Tabela EMPRESA_ENDERECO adicionada.
+[*] Tabela FPAS. Campo CODIGO_TERCEIRO alterado para CHAR(4).
+[*] Tabela LOG_IMPORTACAO. Campo LOG_ERRO alterado para TEXT. Nome alterado para ERRO.
+[+] Tabela LOG_IMPORTACAO. Inserido o campo REGISTRO TEXT.
+[*] Tabela LOG_EXPORTACAO. Campo LOG_ERRO alterado para TEXT. Nome alterado para ERRO.
+[+] Tabela LOG_EXPORTACAO. Inserido o campo REGISTRO TEXT.
+[-] Tabela PESSOA. Removido campo CONVENIO.
+[-] Tabela PESSOA. Removido campo CONTADOR.
+[-] Tabela SOCIO. Removido relacionamento com tabela PESSOA.
+[+] Tabela SOCIO. Inserido o campo NOME VARCHAR(150).
+[+] Tabela SOCIO. Inserido o campo CPF VARCHAR(11).
+[*] Tabela SPED_PIS_4310. Nome alterado para EFD_TABELA_4310.
+[*] Tabela SPED_PIS_4313. Nome alterado para EFD_TABELA_4313.
+[*] Tabela SPED_PIS_4314. Nome alterado para EFD_TABELA_4314.
+[*] Tabela SPED_PIS_4315. Nome alterado para EFD_TABELA_4315.
+[*] Tabela SPED_PIS_4316. Nome alterado para EFD_TABELA_4316.
+[*] Tabela SPED_PIS_439. Nome alterado para EFD_TABELA_439.
+[*] Tabela TIPO_CREDITO_PIS. Nome alterado para EFD_TABELA_436.
+
