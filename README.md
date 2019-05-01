@@ -1,13 +1,12 @@
 <html>
 <div class="bloco">
                     <div class="titulo_bloco">
-                        <h1>T2Ti ERP 2.0 - Escopo</h1>
+                        <h1>T2Ti ERP 2.0 - Documentação</h1>
                     </div>
-                    <br />
-                    
-                    <img class="img-responsive center-block" src="/images/erp/t2ti_erp_2.jpg" />
+  Aqui é possível baixar a documentação do Projeto T2Ti ERP 2.0. Este treinamento formou milhares de desenvolvedores no Brasil e ajudou centenas deles a lançar seu próprio ERP no mercado. Mais informações sobre o treinamento podem ser encontradas no seguinte link: http://t2ti.com/erp2/. 
+                    <hr />
+                    <img src="http://t2ti.com/images/erp/t2ti_erp_2.jpg" />
                     <br />              
-                
                     <h3>Bloco Administrativo</h3> 
                         <table width="100%" >
                             <tr>
@@ -19,27 +18,25 @@
                                         </li>
                                         <li>
                                             <b> GED - Gestão Eletrônica de Documentos </b> <br />
-                                            <a href="/erp2/artigos/GED.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo GED</a>
+                                            <a href="http://t2ti.com/erp2/artigos/GED.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo GED</a>
                                         </li>
                                         <li>
                                             <b> Gerador de Etiquetas </b> <br />
-                                            <a href="/erp2/artigos/GeradorEtiquetas.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gerador de Etiquetas</a>
+                                            <a href="http://t2ti.com/erp2/artigos/GeradorEtiquetas.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gerador de Etiquetas</a>
                                         </li>
                                         <li>
                                             <b> Agenda Corporativa </b> <br />
-                                            <a href="/erp2/artigos/AgendaCorporativa.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Agenda Corporativa</a>
+                                            <a href="http://t2ti.com/erp2/artigos/AgendaCorporativa.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Agenda Corporativa</a>
                                         </li>
                                         <li>
                                             <b> BI - Business Intelligence </b> <br />
-                                            <a href="/erp2/artigos/BI.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo BI - Business Intelligence</a>
+                                            <a href="http://t2ti.com/erp2/artigos/BI.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo BI - Business Intelligence</a>
                                         </li>
                                     </ul>
                                 </td>
                             </tr>
                         </table>
-                        <br />
-                    
-                    
+                        <hr />
                     <h3>Bloco Comercial</h3> 
                         <table width="100%">
                             <tr>
@@ -53,51 +50,49 @@
                                                 <li>NFC-e</li>
                                                 <li>SAT Fiscal</li>
                                             </ul>
-                                            <a href="/erp2/artigos/FrenteCaixa.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Frente de Caixa</a>
+                                            <a href="http://t2ti.com/erp2/artigos/FrenteCaixa.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Frente de Caixa</a>
                                         </li>
                                         <li>
                                         <b>     Vendas </b> <br />
-                                            <a href="/erp2/artigos/VendasLojaVirtualComissoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Vendas</a>
+                                            <a href="http://t2ti.com/erp2/artigos/VendasLojaVirtualComissoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Vendas</a>
                                         </li>
                                         <li>
                                         <b>     Loja Virtual - B2C </b> <br />
-                                            <a href="/erp2/artigos/VendasLojaVirtualComissoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Loja Virtual - B2C</a>
+                                            <a href="http://t2ti.com/erp2/artigos/VendasLojaVirtualComissoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Loja Virtual - B2C</a>
                                         </li>
                                         <li>
                                         <b>     Ordem de Serviço </b> <br />
-                                            <a href="/erp2/artigos/OrdemServico.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Ordem de Serviço</a>
+                                            <a href="http://t2ti.com/erp2/artigos/OrdemServico.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Ordem de Serviço</a>
                                         </li>
                                         <li>
                                         <b>     Nota Fiscal Eletrônica - NF-e </b> <br />
-                                            <a href="/erp2/artigos/NF-e_NFS-e.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo NF-e</a>
+                                            <a href="http://t2ti.com/erp2/artigos/NF-e_NFS-e.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo NF-e</a>
                                         </li>
                                         <li>
                                         <b>     Nota Fiscal Eletrônica de Serviços - NFS-e </b> <br />
-                                            <a href="/erp2/artigos/NF-e_NFS-e.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo NFS-e</a>
+                                            <a href="http://t2ti.comhttp://t2ti.com/erp2/artigos/NF-e_NFS-e.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo NFS-e</a>
                                         </li>
                                         <li>
                                         <b>     Conhecimento Eletrônico de Transporte - CT-e </b> <br />
-                                            <a href="/erp2/artigos/CT-e.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo CT-e</a>
+                                            <a href="http://t2ti.com/erp2/artigos/CT-e.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo CT-e</a>
                                         </li>
                                         <li>
                                         <b>     CRM </b> <br />
-                                            <a href="/erp2/artigos/CRM_AFV.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo CRM</a>
+                                            <a href="http://t2ti.com/erp2/artigos/CRM_AFV.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo CRM</a>
                                         </li>
                                         <li>
                                         <b>     Gestão de Comissões </b> <br />
-                                            <a href="/erp2/artigos/VendasLojaVirtualComissoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gestão de Comissões</a>
+                                            <a href="http://t2ti.com/erp2/artigos/VendasLojaVirtualComissoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gestão de Comissões</a>
                                         </li>
                                         <li>
                                         <b>     AFV - Automação de Força de Vendas</b> <br />
-                                            <a href="/erp2/artigos/CRM_AFV.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo AFV</a>
+                                            <a href="http://t2ti.com/erp2/artigos/CRM_AFV.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo AFV</a>
                                         </li>
                                     </ul>
                                 </td>
                             </tr>
                         </table>
-                        <br />
-                    
-                    
+                        <hr />
                     <h3>Bloco Financeiro</h3> 
                         <table width="100%" >
                             <tr>
@@ -126,14 +121,11 @@
                                             <b>EDI Bancário - CNAB/Febraban</b>
                                         </li>
                                     </ul>
-                                    
-                                    <a href="/erp2/artigos/Financeiro.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o Bloco Financeiro</a>
-    
+                                    <a href="http://t2ti.com/erp2/artigos/Financeiro.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o Bloco Financeiro</a>
                                 </td>
                             </tr>
                         </table>
-                        <br />
-                    
+                        <hr />
                     <h3>Bloco Contábil e Fiscal</h3> 
                         <table width="100%">
                             <tr>
@@ -142,42 +134,41 @@
                                     <ul>
                                         <li>
                                         <b>     Contabilidade e Conciliação Contábil</b> <br />
-                                            <a href="/erp2/artigos/Contabil_Conciliacao.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Contabilidade e Conciliação Contábil</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Contabil_Conciliacao.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Contabilidade e Conciliação Contábil</a>
                                         </li>
                                         <li>
                                             <b> Escrita Fiscal </b> <br />
-                                            <a href="/erp2/artigos/EscritaFiscal.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Escrita Fiscal</a>
+                                            <a href="http://t2ti.com/erp2/artigos/EscritaFiscal.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Escrita Fiscal</a>
                                         </li>
                                         <li>
                                             <b> SPED Contábil e Fiscal </b> <br />
-                                            <a href="/erp2/artigos/Sped.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo SPED Contábil e Fiscal</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Sped.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo SPED Contábil e Fiscal</a>
                                         </li>
                                         <li>
                                             <b> Controle Patrimonial </b> <br />
-                                            <a href="/erp2/artigos/Patrimonio.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Controle Patrimonial</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Patrimonio.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Controle Patrimonial</a>
                                         </li>
                                         <li>
                                         <b>     Controle de Orçamentos </b> <br />
-                                            <a href="/erp2/artigos/Orcamentos.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Controle de Orçamentos</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Orcamentos.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Controle de Orçamentos</a>
                                         </li>
                                         <li>
                                         <b>     EFD-Contribuições </b> <br />
-                                            <a href="/erp2/artigos/EFD-Contribuicoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo EFD-Contribuições</a>
+                                            <a href="http://t2ti.com/erp2/artigos/EFD-Contribuicoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo EFD-Contribuições</a>
                                         </li>
                                         <li>
                                             <b> Tributação </b> <br />
-                                            <a href="/erp2/artigos/Tributacao.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Tributação</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Tributacao.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Tributação</a>
                                         </li>
                                         <li>
                                             <b> Sintegra </b> <br />
-                                            <a href="/erp2/artigos/Sintegra.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Sintegra</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Sintegra.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Sintegra</a>
                                         </li>
                                     </ul>
                                 </td>
                             </tr>
                         </table>
-                        <br />
-                            
+                        <hr />
                     <h3>Bloco Recursos Humanos</h3> 
                         <table width="100%" >
                             <tr>
@@ -186,11 +177,11 @@
                                     <ul>
                                         <li>
                                             <b>Folha de Pagamento</b> <br />
-                                            <a href="/erp2/artigos/Folha_eSocial.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Folha de Pagamento</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Folha_eSocial.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Folha de Pagamento</a>
                                         </li>
                                         <li>
                                             <b>Ponto Eletrônico</b> <br />
-                                            <a href="/erp2/artigos/Ponto.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Ponto Eletrônico</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Ponto.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Ponto Eletrônico</a>
                                         </li>
                                         <li>
                                             <b>eSocial</b> <br />
@@ -200,8 +191,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <br />                      
-                    
+                        <hr />                      
                     <h3>Bloco Suprimentos</h3> 
                         <table width="100%">
                             <tr>
@@ -210,27 +200,27 @@
                                     <ul>
                                         <li>
                                             <b> Gestão de Compras </b> <br />
-                                            <a href="/erp2/artigos/Compras.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gestão de Compras</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Compras.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gestão de Compras</a>
                                         </li>
                                         <li>
                                         <b>     Controle de Estoque </b> <br />
-                                            <a href="/erp2/artigos/Estoque_Inventario.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Controle de Estoque</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Estoque_Inventario.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Controle de Estoque</a>
                                         </li>
                                         <li>
                                         <b>     Gestão de Contratos </b> <br />
-                                            <a href="/erp2/artigos/Contratos.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gestão de Contratos</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Contratos.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gestão de Contratos</a>
                                         </li>
                                         <li>
                                         <b>     Inventário </b> <br />
-                                            <a href="/erp2/artigos/Estoque_Inventario.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Inventário</a>
+                                            <a href="http://t2ti.com/erp2/artigos/Estoque_Inventario.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Inventário</a>
                                         </li>
                                         <li>
                                         <b>     PCP - Controle de Produção </b> <br />
-                                            <a href="/erp2/artigos/PCP.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo PCP - Controle de Produção</a>
+                                            <a href="http://t2ti.com/erp2/artigos/PCP.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo PCP - Controle de Produção</a>
                                         </li>
                                         <li>
                                         <b>     WMS - Gerenciamento de Armazém </b> <br />
-                                            <a href="/erp2/artigos/WMS.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo WMS - Gerenciamento de Armazém</a>
+                                            <a href="http://t2ti.com/erp2/artigos/WMS.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo WMS - Gerenciamento de Armazém</a>
                                         </li>
                                     </ul>
                                 </td>
