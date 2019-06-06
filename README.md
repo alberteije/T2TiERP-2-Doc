@@ -4,6 +4,10 @@
                         <h1>T2Ti ERP 2.0 - Documentação</h1>
                     </div>
   Aqui é possível baixar a documentação do Projeto T2Ti ERP 2.0. Este treinamento formou milhares de desenvolvedores no Brasil e ajudou centenas deles a lançar seu próprio ERP no mercado. Mais informações sobre o treinamento podem ser encontradas no seguinte link: http://t2ti.com/erp2/. 
+  	<br /><br />
+  <i>
+  [Here it is possible to download the documentation of the Project T2Ti ERP 2.0. This training was made by thousands of developers in Brazil and helped hundreds of them launch their own ERP in the market. More information about the training can be found at the following link: http://t2ti.com/erp2/.]
+  </i>
                     <hr />
                     <img src="http://t2ti.com/images/erp/t2ti_erp_2.jpg" />
                     <br />              
